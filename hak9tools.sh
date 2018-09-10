@@ -77,7 +77,7 @@ echo -e $cyan"    Youtube Channel     $white":" $red https://www.youtube.com/c/H
 echo -e $cyan"    Github              $white":" $red https://github.com/xHak9x"
 echo -e $cyan"    Jabber              $white":" $red xhak9x@jabber.de"
 echo -e $cyan ""
-echo -e $okegreen"   ====================== Tool Lest =======================    ";
+echo -e $okegreen"   ====================== Tool List =======================    ";
         echo
         echo "[1] ✔ Gmail-Hack                       [2] ✔ InstaBrute"
         echo "[3] ✔ PYcrypt	                       [4] ✔ FBI"
@@ -90,7 +90,7 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
         
         case "$option" in 
             1)  echo "Gmail-Hack"
-                echo -e $red "############## Gemail-Hack ###################"
+                echo -e $red "############## Gmail-Hack ###################"
                 sleep 2
                 git clone https://github.com/xHak9x/gmailhack > /dev/null 2>&1
                 echo
