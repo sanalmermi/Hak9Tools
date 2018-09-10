@@ -80,7 +80,7 @@ echo -e $cyan ""
 echo -e $okegreen"   ====================== Tool List =======================    ";
         echo
         echo "[1] ✔ Gmail-Hack                       [2] ✔ InstaBrute"
-        echo "[3] ✔ PYcrypt	                       [4] ✔ FBI"
+        echo "[3] ✔ PYcrypt                          [4] ✔ FBI"
         echo "[5] ✔ FindUser                         [6] ✔ 1337Translator"
         echo "[7] ✔ VenomGen                         [8] ✔ SocialPhish"
         echo "[q] ✔ Quit"
