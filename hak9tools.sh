@@ -218,7 +218,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 read -p "pess any key to return ..."
                 clear
                 ;;
-	    1)  echo "PwGen"
+	    9)  echo "PwGen"
                 echo -e $red "############## PwGen ###################"
                 sleep 2
                 git clone https://github.com/xHak9x/PwGen > /dev/null 2>&1
