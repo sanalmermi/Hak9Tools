@@ -83,6 +83,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
         echo "[3] ✔ PYcrypt                          [4] ✔ FBI"
         echo "[5] ✔ FindUser                         [6] ✔ 1337Translator"
         echo "[7] ✔ VenomGen                         [8] ✔ SocialPhish"
+	echo "[9] ✔ PwGen"
         echo "[q] ✔ Quit"
         echo
         read -p "Select>: " option
@@ -212,6 +213,22 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 cd ..
                 echo ""
                 echo -e $red "########## Finish SocialPhish ############"
+                echo
+                echo -e $green "【!】Return To The Main Menu【!】"
+                read -p "pess any key to return ..."
+                clear
+                ;;
+	    1)  echo "PwGen"
+                echo -e $red "############## PwGen ###################"
+                sleep 2
+                git clone https://github.com/xHak9x/PwGen > /dev/null 2>&1
+                echo
+                echo  -e $green "[ ✔ ] PwGen Downloaded " 
+                cd PwGen
+                chmod +x pwgen.py
+                cd ..
+                echo ""
+                echo -e $red "########## Finish ,Download PwGen ############"
                 echo
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
